@@ -11,7 +11,9 @@ Este README describe los pasos para instalar Docker en un contenedor utilizando 
 
 3. Ansible
 
-3. Máquina virtual que se pueda conectar por SSH, sino tiene una, clone el siguiente repo:
+3. Máquina virtual configurada en terraform que se pueda conectar por SSH con usuario y contraseña , si no tiene una, clone el siguiente repositorio y cambiele las configuraciones que considere necesarias:
+
+   Nota: Es importante que debe tener un mínimo conocimiento de terraform, ya que necesita un archivo .tfvars, cualquier cosa, revisar la documentación de máquinas virtuales en azure con terraform.
 
    - https://github.com/Estebanm1812/Terraform-Modules.git
 
