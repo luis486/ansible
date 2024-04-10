@@ -25,27 +25,27 @@ Este README describe los pasos para instalar Docker en un contenedor utilizando 
 
    - ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yml
 
-   (evidences/install_docker.jpg
+   [hola](evidences/install_docker.jpg)
 
 2. Como segundo paso, es necesario ejecutar el contenedor, que también está ubicado en la carpeta `playbooks` 
 
    - ansible-playbook -i inventory/hosts.ini playbooks/run_container.yml
 
-    (evidences/run_container.jpg)
+   [hola](evidences/run_container.jpg)
 
 3. Como tercer paso es necesario configurar una regla que permita hacer un port forward para escoger el contenedor por donde va a correr el contenedor
 
 Para hacer esta regla es necesario ir a las configuraciones de la VM subida en azure, apartado de configuración de red, crear ACL del puerto de entrada 
    
-       (evidences/ruta.png)
+   [hola](evidences/ruta.png)
    
 Un port forward indica que se reenvía el tráfico desde el puerto 5379 de la máquina host al puerto 8080 dentro del contenedor (el puerto puedes elegirlo tú mismo desde el             playbook/run_container)
    
-       (evidences/rules.jpg)
+   [hola](evidences/rules.jpg)
 
 4. Por último, coloca la dirección IP que te proporciona tu máquina virtual subida en azure (IP Pública) con el puerto que elegiste, y listo, disfruta!
 
-    (evidences/app.jpg)
+   [hola](evidences/app.jpg)
 
 
 ## Notas Adicionales
