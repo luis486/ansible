@@ -2,7 +2,7 @@
 
 Este README describe los pasos para instalar Docker en un contenedor utilizando Ansible y luego ejecutar el contenedor que contiene el juego de Mario bros.
 
-## Prerequisitos
+## Prerrequisitos
 
 1. Codespace (para evitar algunos errores que genera en local) como:
 
@@ -10,7 +10,7 @@ Este README describe los pasos para instalar Docker en un contenedor utilizando 
 
 2. Ansible
 
-3. Máquina virtual que se pueda conectar por SSH, sino tiene una, clone el siguiente repo:
+3. Máquina virtual en terraform que se pueda conectar por SSH, si no tiene una, clone el siguiente repositorio y cambiele configuraciones a su gusto:
 
 - https://github.com/Estebanm1812/Terraform-Modules.git
 
