@@ -5,16 +5,17 @@ Este README describe los pasos para instalar Docker en un contenedor utilizando 
 ## Prerequisitos
 
 1. Codespace (para evitar algunos errores que genera en local) como:
+   ![hola](evidences/error_local.png)
 
    - El cual se puede solucionar en codespace con el comando : *chmod 755 /workspaces/ansible/*
 
-2. Ansible
+3. Ansible
 
-3. Máquina virtual que se pueda conectar por SSH, sino tiene una, clone el siguiente repo:
+4. Máquina virtual que se pueda conectar por SSH, sino tiene una, clone el siguiente repo:
 
    - https://github.com/Estebanm1812/Terraform-Modules.git
 
-4. Repositorio con las configuraciones y buenas prácticas necesarias para ansible:
+5. Repositorio con las configuraciones y buenas prácticas necesarias para ansible:
 
    - https://github.com/luis486/ansible.git
 
